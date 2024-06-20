@@ -1,0 +1,12 @@
+[package]
+name = "url_shortener"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+sqlite = "0.36.0"
+base62 = "2.0.2"
+md-5 = "0.10.6"
+hex-literal = "0.4.1"
+rand = "0.8.5"
